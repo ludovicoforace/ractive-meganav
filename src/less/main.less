@@ -1,0 +1,44 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+@base: #003f5f;
+@second: #0492e1;
+@active: #bdbdbd;
+@black: #555;
+@white: #fff;
+
+#root {
+  font-family: 'Roboto', sans-serif;
+}
+
+.pend {
+  width: 1060px;
+  padding: 0 20px;
+}
+
+nav {
+  .head {
+    display: block;
+    float: left;
+    width: 15%;
+  }
+
+  a {
+    display: block;
+    background: url('border.jpg') repeat-y;
+    color: @black;
+    height: 65px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+
+  .active {
+    background-color: @active;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .pend {
+    width: 100%;
+  }
+}
