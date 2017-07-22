@@ -1,7 +1,11 @@
 <nav>
-  <ul class="floatin">
-    {{#mainNav:i}}
+  <ul id="main-head" class="floatin">
+    {{#mainHead:i}}
     <li class="head"><a on-mouseover="select:{{i}}" class='{{ i === active ? "active" : "" }}' href="{{anchor}}" target="_blank">{{title}}</a></li>
-    {{/mainNav}}
+    {{/mainHead}}
   </ul>
 </nav>
+
+{{#if showBoard}}
+<Board /> 
+{{/if}}
