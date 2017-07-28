@@ -1,3 +1,2 @@
-<div class="pend">
-  <Header />
-</div>
+<PreHeader />
+<Header />

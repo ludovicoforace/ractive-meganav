@@ -74,7 +74,8 @@ gulp.task('copy-static', function () {
       './src/img/*.png',
       './src/img/*.jpg',
       './src/img/*.gif',
-      './src/img/*.ico'
+      './src/img/*.ico',
+      './src/data/*.*'
     ]);
   if (global.isDeploy) {
     return bundler

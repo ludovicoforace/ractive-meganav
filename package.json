@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "ractive": "~0.7.3",
-    "sash-layout": ">1.2.1"
+    "sash-layout": ">1.2.1",
+    "then-request": "^4.1.0"
   },
   "stylelint": {
     "extends": "stylelint-config-standard",

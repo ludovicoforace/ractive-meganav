@@ -1,0 +1,277 @@
+{
+  "mainHead": [
+    {
+      "title": "Snowflakes",
+      "anchor": "https://en.wikipedia.org/wiki/Snowflake"
+    },
+    {
+      "title": "Arthur Schopenhauer",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer"
+    },
+    {
+      "title": "Eagles",
+      "anchor": "https://simple.wikipedia.org/wiki/Eagle"
+    },
+    {
+      "title": "Physiognomy",
+      "anchor": "https://en.wikipedia.org/wiki/Physiognomy"
+    }
+  ],
+  "snowflakes": [
+    {
+      "title": "Description",
+      "anchor": "https://en.wikipedia.org/wiki/Snowflake#Formation",
+      "desc": [
+        {
+          "para": "A snowflake is either a single ice crystal or an aggregation of ice crystals which falls through the Earth's atmosphere as snow. Each flake nucleates around a dust particle in supersaturated air masses by attracting supercooled cloud water droplets, which freeze and accrete in crystal form. Complex shapes emerge as the flake moves through differing temperature and humidity zones in the atmosphere, such that individual snowflakes differ in detail from one another, but may be categorized in eight broad classifications and at least80 individual variants. The main constituent shapes for ice crystals, from which combinations may occur, are needle, column, plate and rime. Snowflakes appear white in color despite being made of clear ice. This is due to diffuse reflection of the whole spectrum of light by the small crystal facets."
+        },
+        {
+          "para": "Once snowflakes land and accumulate, they undergo metamorphosis with changes in temperature and coalesce into a snowpack. The characteristics of the snowpack reflect the changed nature of the constituent snow crystals."
+        }
+      ]
+    },
+    {
+      "title": "Classification",
+      "head": [
+        "Temperature range",
+        "Saturation range (g/m3)",
+        "Crystal below saturation",
+        "Crystal above saturation"
+      ],
+      "desc": [
+        {
+          "tRange": "0C to -3.5C",
+          "sRange": "0.0 to 0.5",
+          "belowS": "Solid plates",
+          "aboveS": "Thin plates - Dendrites"
+        },
+        {
+          "tRange": "-3.5C to -10C",
+          "sRange": "0.5 to 1.2",
+          "belowS": "Solid prisms - Hollow prisms",
+          "aboveS": "Hollow prisms - Needles"
+        },
+        {
+          "tRange": "-10C to -22C",
+          "sRange": "1.2 to 1.2",
+          "belowS": "Thin plates - Solid plates",
+          "aboveS": "Sectored plates / Dendrites"
+        },
+        {
+          "tRange": "22C to -40C",
+          "sRange": "0.0 to 0.4",
+          "belowS": "Thin plates / Solid plates",
+          "aboveS": "Columns / Prisms"
+        }
+      ]
+    },
+    {
+      "title": "Infographic",
+      "pic": [
+        {
+          "alt": "snowman",
+          "src": "dist/snowman.png",
+          "mAnchor": "http://www.flaticon.com/authors/freepik",
+          "maker": "Freepik"
+        },
+        {
+          "alt": "snow globe",
+          "src": "dist/snow-globe.png",
+          "mAnchor": "http://www.flaticon.com/authors/madebyoliver",
+          "maker": "Madebyoliver"
+        },
+        {
+          "alt": "sled",
+          "src": "dist/sled.png",
+          "mAnchor": "http://www.flaticon.com/authors/freepik",
+          "maker": "Freepik"
+        },
+        {
+          "alt": "mountains",
+          "src": "dist/mountains.png",
+          "mAnchor": "http://www.flaticon.com/authors/madebyoliver",
+          "maker": "Madebyoliver"
+        }
+      ]
+    }
+  ],
+  "schopenhauer": [
+    {
+      "title": "Bio",
+      "desc": [
+        {
+          "para": "Arthur Schopenhauer (German: [ˈaɐ̯tʊɐ̯ ˈʃoːpm̩ˌhaʊ̯ɐ]; 22 February 1788 – 21 September 1860) was a German philosopher. He is best"
+        },
+        {
+          "para": "known for his 1818 work The World as Will and Representation (expanded in 1844), wherein he characterizes the phenomenal world as the product of a blind and insatiable metaphysical will. Proceeding from the transcendental idealism of Immanuel Kant, Schopenhauer developed an atheistic metaphysical and ethical system that has been described as an exemplary manifestation of philosophical pessimism, rejecting the contemporaneous post-Kantian philosophies of German idealism. Schopenhauer was among the first thinkers in Western philosophy to share and affirm significant tenets of Eastern philosophy (e.g., asceticism, the world-as-appearance), having initially arrived at similar conclusions as the result of his own philosophical work."
+        },
+        {
+          "para": "Though his work failed to garner substantial attention during his life, Schopenhauer has had a posthumous impact across various disciplines, including philosophy, literature, and science. His writing on aesthetics, morality, and psychology would exert important influence on thinkers and artists throughout the 19th and 20th centuries. Those who have cited his influence include Friedrich Nietzsche, Richard Wagner, Leo Tolstoy, Ludwig Wittgenstein, Erwin Schrödinger, Otto Rank, Gustav Mahler, Joseph Campbell, Albert Einstein, Carl Jung, Thomas Mann, Emile Zola, Guy de Maupassant, Jorge Luis Borges and Samuel Beckett, among others."
+        }
+      ]
+    },
+    {
+      "title": "Life",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer#Life",
+      "desc": [
+        {
+          "para": "Schopenhauer was born on 22 February 1788, in the city of Danzig (then part of the Polish–Lithuanian Commonwealth; present day Gdańsk, Poland) on Heiligegeistgasse (known in the present day as Św. Ducha 47), the son of Johanna Schopenhauer (née Trosiener) and Heinrich Floris Schopenhauer, both descendants of wealthy German patrician families. When Danzig became part of Prussia in 1793, Heinrich moved to Hamburg, although his firm continued trading in Danzig. As early as 1799, Arthur started playing the flute. In 1805, Schopenhauer's father died, possibly by suicide. Arthur endured two long years of drudgery as a merchant in honor of his dead father, but his mother soon moved with his sister Adele to Weimar—then the centre of German literature—to pursue her writing career. He dedicated himself wholly to studies at the Gotha gymnasium (Gymnasium illustre zu Gotha (de)) in Saxe-Gotha-Altenburg, but left in disgust after seeing one of the masters lampooned."
+        },
+        {
+          "para": "By that time, Johanna Schopenhauer had already opened her famous salon, and Arthur was not compatible with what he considered its vain and ceremonious ways. He was also disgusted by the ease with which his mother had forgotten his father's memory. He left to become a student at the University of Göttingen in 1809. There he studied metaphysics and psychology under Gottlob Ernst Schulze, the author of Aenesidemus, who advised him to concentrate on Plato and Immanuel Kant. In Berlin, from 1811 to 1812, he had attended lectures by the prominent post-Kantian philosopher Johann Gottlieb Fichte and the theologian Friedrich Schleiermacher.."
+        }
+      ]
+    },
+    {
+      "title": "Thought",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer#Thought",
+      "desc": [
+        {
+          "para": "A key focus of Schopenhauer was his investigation of individual motivation. Before Schopenhauer, Hegel had popularized the concept of Zeitgeist, the idea that society consisted of a collective consciousness that moved in a distinct direction, dictating the actions of its members. Schopenhauer, a reader of both Kant and Hegel, criticized their logical optimism and the belief that individual morality could be determined by society and reason. Schopenhauer believed that humans were motivated by only their own basic desires, or Wille zum Leben (\"Will to Live\"), which directed all of mankind. Will, for Schopenhauer, is what Kant called the \"thing-in-itself\"."
+        },
+        {
+          "para": "For Schopenhauer, human desire was futile, illogical, directionless, and, by extension, so was all human action in the world. Einstein paraphrased his views as follows: \"Man can indeed do what he wants, but he cannot will what he wants.\" In this sense, he adhered to the Fichtean principle of idealism: \"The world is for a subject.\" This idealism so presented, immediately commits it to an ethical attitude, unlike the purely epistemological concerns of Descartes and Berkeley.."
+        }
+      ]
+    },
+    {
+      "title": "Influences",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer#Influences",
+      "desc": [
+        {
+          "para": "Schopenhauer said he was influenced by the Upanishads, Immanuel Kant and Plato. References to Eastern philosophy and religion appear frequently in his writing. As noted above, he appreciated the teachings of the Buddha and even called himself a Buddhist. He said that his philosophy could not have been conceived before these teachings were available.."
+        }
+      ]
+    },
+    {
+      "title": "Critique of Kant and Hegel",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer#Critique_of_Kant_and_Hegel",
+      "desc": [
+        {
+          "para": "Schopenhauer accepted Kant's double-aspect of the universe—the phenomenal (world of experience) and the noumenal (the true world, independent of experience). Some commentators suggest that Schopenhauer claimed that the noumenon, or thing-in-itself, was the basis for Schopenhauer's concept of the will. Other commentators suggest that Schopenhauer considered will to be only a subset of the \"thing-in-itself\" class, namely that which we can most directly experience."
+        },
+        {
+          "para": "Schopenhauer's identification of the Kantian noumenon (i.e., the actually existing entity) with what he termed \"will\" deserves some explanation. The noumenon was what Kant called the Ding an sich (the Thing in Itself), the reality that is the foundation of our sensory and mental representations of an external world. In Kantian terms, those sensory and mental representations are mere phenomena. Schopenhauer departed from Kant in his description of the relationship between the phenomenon and the noumenon. According to Kant, things-in-themselves ground the phenomenal representations in our minds; Schopenhauer, on the other hand, believed that phenomena and noumena are two different sides of the same coin. Noumena do not cause phenomena, but rather phenomena are simply the way by which our minds perceive the noumena, according to the principle of sufficient reason. This is explained more fully in Schopenhauer's doctoral thesis, On the Fourfold Root of the Principle of Sufficient Reason (1813).."
+        }
+      ]
+    },
+    {
+      "title": "Further reading",
+      "anchor": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer#Further_reading",
+      "desc": [
+        {
+          "item": "Cartwright, David. Schopenhauer: A Biography, Cambridge University Press, 2010. ISBN 978-0-521-82598-6"
+        },
+        {
+          "item": "Frederick Copleston, Arthur Schopenhauer, philosopher of pessimism (Burns, Oates & Washbourne, 1946)"
+        },
+        {
+          "item": "O.F.Damm, Arthur Schopenhauer - eine Biographie, (Reclam, 1912)"
+        },
+        {
+          "item": "Kuno Fischer, Arthur Schopenhauer (Heidelberg: Winter, 1893); revised as Schopenhauers Leben, Werke und Lehre (Heidelberg: Winter, 1898)."
+        },
+        {
+          "item": "Eduard Grisebach, Schopenhauer - Geschichte seines Lebens (Berlin: Hofmann, 1876)."
+        },
+        {
+          "item": "Arthur Hubscher, Arthur Schopenhauer - Ein Lebensbild (Leipzig: Brockhaus, 1938)."
+        },
+        {
+          "item": "Matthews, Jack, Schopenhauer's Will: Das Testament, Nine Point Publishing, 2015. ISBN 978-0985827885. A recent creative biography by philosophical novelist Jack Matthews."
+        }
+      ]
+    }
+  ],
+  "eagle": [
+    {
+      "title": "Info",
+      "desc": [
+        {
+          "para": "Eagles are large birds of prey that are related to hawks and Old World vultures. Eagles hunt during the day and have very good eyesight. The bald eagle is a large eagle from North America that has a bright white head and tail. It is the national bird of the United States and usually eats fish."
+        },
+        {
+          "para": "The golden eagle is found over most of the world and it usually eats small mammals."
+        },
+        {
+          "para": "Sometimes, \"eagle\" can just mean any large hawk; as a group, eagles are not closely related to one another."
+        },
+        {
+          "para": "The largest eagle that has ever lived is Haast's eagle. It is the only eagle in the world ever to have been top predator of its ecosystem. Though it is now extinct, it lived in New Zealand."
+        }
+      ]
+    },
+    {
+      "title": "Video"
+    }
+  ],
+  "physiognomy": [
+    {
+      "title": "Info",
+      "desc": [
+        {
+          "para": "Physiognomy (from the Gk. physis meaning \"nature\" and gnomon meaning \"judge\" or \"interpreter\") is the assessment of character or personality from a person's outer appearance, especially the face. The term can also refer to the general appearance of a person, object, or terrain without reference to its implied characteristics—as in the physiognomy of an individual plant (see plant life-form) or of a plant community (see vegetation)."
+        },
+        {
+          "para": "Credence of such study has varied from time to time. The practice was well accepted by the ancient Greek philosophers, but fell into disrepute in the Middle Ages when practised by vagabonds and mountebanks. It was then revived and popularised by Johann Kaspar Lavater before falling from favour again in the late 19th century. Physiognomy as understood in the past meets the contemporary definition of a pseudoscience."
+        },
+        {
+          "para": "No clear evidence indicates physiognomy works, though recent studies have suggested that facial appearances do \"contain a kernel of truth\" about a person's personality."
+        },
+        {
+          "para": "Physiognomy is also sometimes referred to as anthroposcopy, though the expression was more common in the 19th century when the word originated."
+        }
+      ]
+    },
+    {
+      "title": "Ancient physiognomy",
+      "anchor": "https://en.wikipedia.org/wiki/Physiognomy#Ancient_physiognomy",
+      "desc": [
+        {
+          "para": "Notions of the relationship between an individual's outward appearance and inner character are historically ancient, and occasionally appear in early Greek poetry. Siddhars from ancient India are also known to have defined samudrika lakshanam that identifies personal characteristics with body features. Chinese physiognomy or face reading (mianxiang) reaches back at least to the Northern Song period. The first indications of a developed physiognomic theory appear in fifth century BC Athens, with the works of Zopyrus (who was featured in a dialogue by Phaedo of Elis), who was said to be an expert in the art. By the fourth century BC, the philosopher Aristotle made frequent reference to theory and literature concerning the relationship of appearance to character."
+        }
+      ]
+    },
+    {
+      "title": "Modern physiognomy",
+      "desc": [
+        {
+          "para": "The principal promoter of physiognomy in modern times was the Swiss pastor Johann Kaspar Lavater (1741–1801) who was briefly a friend of Goethe. Lavater's essays on physiognomy were first published in German in 1772 and gained great popularity. These influential essays were translated into French and English."
+        }
+      ]
+    },
+    {
+      "title": "Related disciplines",
+      "anchor": "https://en.wikipedia.org/wiki/Physiognomy#Related_disciplines",
+      "desc": [
+        {
+          "item": "Anthropological criminology"
+        },
+        {
+          "item": "Anthropometry"
+        },
+        {
+          "item": "Characterology"
+        },
+        {
+          "item": "Metoposcopy"
+        },
+        {
+          "item": "Morphopsychology"
+        },
+        {
+          "item": "Palmistry"
+        },
+        {
+          "item": "Pathognomy"
+        },
+        {
+          "item": "Phrenology"
+        },
+        {
+          "item": "Somatotype and constitutional psychology"
+        }
+      ]
+    }
+  ]
+}

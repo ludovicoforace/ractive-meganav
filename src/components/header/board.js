@@ -1,10 +1,18 @@
 import Ractive from 'ractive';
 import template from './board.ract';
-import sideHead from './sideHead.js';
+import desk from './desk.js';
+import { targetNotContained } from '../../targetNotContained.js';
 
 export default Ractive.extend({
   template: template.template,
   components: {
-    SideHead: sideHead
+    Desk: desk
+  },
+  oninit() {
+    this.on('activeSide', (evt, i) => {
+      if (targetNotContained(this)) {
+        this.set('activatedSide', i);
+      }
+    });
   }
 });
