@@ -1,32 +1,32 @@
-<div id="board">
-  <div on-mouseout="out">
-    <div class="strip"></div>
-    <div class="floatin">
-      <ul id="side-head">
-      {{#if activated === 0}}
-        {{#snowflakes:i}}
-        <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
-        {{/each}}
-      {{/if}} 
+<div>
+  <div class="strip"></div>
+  <div class="floatin">
+    <ul id="side-head">
+    {{#if activated === 0}}
+      {{#snowflakes:i}}
+      <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
+      {{/each}}
+    {{/if}} 
 
-      {{#if activated === 1}} 
-        {{#schopenhauer:i}}
-        <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
-        {{/each}} 
-      {{/if}} 
+    {{#if activated === 1}} 
+      {{#schopenhauer:i}}
+      <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
+      {{/each}} 
+    {{/if}} 
 
-      {{#if activated === 2}} 
-        {{#eagle:i}}
-        <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
-        {{/each}} 
-      {{/if}} 
+    {{#if activated === 2}} 
+      {{#eagle:i}}
+      <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
+      {{/each}} 
+    {{/if}} 
 
-      {{#if activated === 3}} 
-        {{#physiognomy:i}}
-        <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
-        {{/each}} 
-      {{/if}}
-      </ul>
+    {{#if activated === 3}} 
+      {{#physiognomy:i}}
+      <li on-mouseover="activeSide:{{i}}" class='{{ i === activatedSide ? "active" : "" }}'>{{title}}</li>
+      {{/each}} 
+    {{/if}}
+    </ul>
+    <div id="desk">
       <Desk />
     </div>
   </div>

@@ -1,7 +1,5 @@
-<div id="pre-header">
-  <div class="pend">
-    <header>
-      <h1>Ractive Meganav<em> - A dropdown menu managed by a single json file</em></h1>
-    </header>
-  </div>
+<div class="pend">
+  <header>
+    <h1>Ractive Meganav<em> - A dropdown menu through a single json file</em></h1>
+  </header>
 </div>

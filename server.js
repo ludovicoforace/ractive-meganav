@@ -8,8 +8,9 @@ const path = require('path');
 const port = 3000;
 http.createServer(function (req, res) {
   console.log(`${req.method} ${req.url}`);
+  const root = 'dist';
   const parsedUrl = url.parse(req.url);
-  var pathname = `.${parsedUrl.pathname}`;
+  var pathname = `${root}${parsedUrl.pathname}`;
   const mimeType = {
     '.ico': 'image/x-icon',
     '.html': 'text/html',

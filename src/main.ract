@@ -1,2 +1,12 @@
-<PreHeader />
-<Header />
+<div id="pre-header">
+  <PreHeader />
+</div>
+<div id="header">
+  <Header />
+</div>
+<div id="tech">
+  <Tech />
+</div>
+<div id="footer">
+  <Footer />
+</div>

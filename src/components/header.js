@@ -21,7 +21,7 @@ export default Ractive.extend({
   }),
   oninit() {
     const self = this;
-    request('GET', './dist/model.json',
+    request('GET', './model.json',
       {
         headers: { accept: 'application/json' }
       })
@@ -43,6 +43,12 @@ export default Ractive.extend({
         this.set('showBoard', true);
         this.set('activated', i);
         this.set('activatedSide', 0);
+      }
+    });
+    this.on('out', (evt, i) => {
+      if (targetNotContained(this)) {
+        this.set('showBoard', false);
+        this.set('activated', null);
       }
     });
   }

@@ -1,15 +1,15 @@
-<div id="header">
-  <div class="pend">
-    <nav>
-      <ul id="main-head" class="floatin">
-        {{#mainHead:i}}
-        <li class="head"><a on-mouseover="active:{{i}}" class='{{ i === activated ? "active" : "" }}' href="{{anchor}}" target="_blank">{{title}}</a></li>
-        {{/mainHead}}
-      </ul>
-    </nav>
+<div class="pend">
+  <nav>
+    <ul id="main-head" class="floatin">
+      {{#mainHead:i}}
+      <li class="head"><a on-mouseover="active:{{i}}" class='{{ i === activated ? "active" : "" }}' href="{{anchor}}" target="_blank">{{title}}</a></li>
+      {{/mainHead}}
+    </ul>
+  </nav>
 
-    {{#if showBoard}}
-    <Board /> 
-    {{/if}}
-  </div>
+  {{#if showBoard}}
+  <div id="board" on-mouseout="out">
+    <Board />
+  </div> 
+  {{/if}}
 </div>

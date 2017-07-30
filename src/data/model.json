@@ -70,25 +70,25 @@
       "pic": [
         {
           "alt": "snowman",
-          "src": "dist/snowman.png",
+          "src": "snowman.png",
           "mAnchor": "http://www.flaticon.com/authors/freepik",
           "maker": "Freepik"
         },
         {
           "alt": "snow globe",
-          "src": "dist/snow-globe.png",
+          "src": "snow-globe.png",
           "mAnchor": "http://www.flaticon.com/authors/madebyoliver",
           "maker": "Madebyoliver"
         },
         {
           "alt": "sled",
-          "src": "dist/sled.png",
+          "src": "sled.png",
           "mAnchor": "http://www.flaticon.com/authors/freepik",
           "maker": "Freepik"
         },
         {
           "alt": "mountains",
-          "src": "dist/mountains.png",
+          "src": "mountains.png",
           "mAnchor": "http://www.flaticon.com/authors/madebyoliver",
           "maker": "Madebyoliver"
         }
