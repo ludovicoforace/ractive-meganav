@@ -1,9 +1,14 @@
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:600,700';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 
 @base: #003f5f;
 @second: #0492e1;
-@active: #bdbdbd;
+@active: #dcdddb;
 @white: #fff;
+
+#mobile {
+  display: none;
+}
 
 #root {
   font-family: 'Open Sans', sans-serif;
@@ -18,6 +23,10 @@
 .strip {
   background-color: @active;
   height: 20px;
+}
+
+.spin-up {
+  transform: rotate(180deg);
 }
 
 #pre-header {
@@ -36,6 +45,118 @@
 
 #header {
   padding: 20px 0;
+
+  nav {
+    .head {
+      display: block;
+      float: left;
+      width: 15%;
+    }
+
+    li:first-child a {
+      background: transparent;
+    }
+
+    a {
+      word-wrap: normal;
+      display: block;
+      background: url(border.png) repeat-y;
+      color: @base;
+      height: 65px;
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+
+    #main-head {
+      li:first-child .active,
+      .active {
+        background-color: @active;
+      }
+    }
+  }
+}
+
+#header-mob {
+  background-color: @second;
+
+  h1 {
+    left: 0;
+    color: @white;
+    font-size: 28px;
+  }
+
+  .fa {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .pend {
+    > div {
+      position: relative;
+      height: 62px;
+
+      .fa {
+        color: @white;
+      }
+    }
+  }
+
+  .fa-angle-double-down {
+    position: absolute;
+    font-size: 62px;
+    top: 0;
+    right: 0;
+    transition: 0.3s linear;
+  }
+
+  .fa-angle-right::before {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 22px;
+    transform: translateY(-50%);
+  }
+
+  nav {
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 3px 10px #555;
+
+    li:first-child {
+      a {
+        background: transparent;
+        background-color: @active;
+
+        &:hover {
+          background-color: @base;
+        }
+      }
+    }
+
+    a {
+      position: relative;
+      display: block;
+      font-size: 16px;
+      color: @base;
+      padding: 20px 40px 20px 20px;
+      background: url(border-h.png) repeat-x;
+      background-color: @active;
+
+      i {
+        color: @base;
+      }
+
+      &:hover {
+        background-color: @base;
+        color: @white;
+
+        i {
+          color: @white;
+        }
+      }
+    }
+  }
 }
 
 #tech {
@@ -82,34 +203,6 @@
     padding: 20px 0;
     border-top: 1px solid @active;
     text-align: center;
-  }
-}
-
-nav {
-  .head {
-    display: block;
-    float: left;
-    width: 15%;
-  }
-
-  li:first-child a {
-    background: transparent;
-  }
-
-  a {
-    display: block;
-    background: url('border.jpg') repeat-y;
-    color: @base;
-    height: 65px;
-    font-size: 14px;
-    padding: 10px 20px;
-  }
-
-  #main-head {
-    li:first-child .active,
-    .active {
-      background-color: @active;
-    }
   }
 }
 
@@ -244,7 +337,6 @@ nav {
     table {
       background-color: @second;
       padding: 15px 0;
-      box-shadow: 0 -1px 10px @second;
     }
 
     th,
@@ -262,5 +354,49 @@ nav {
 @media only screen and (max-width: 1120px) {
   .pend {
     width: 100%;
+  }
+
+  #tech {
+    li {
+      width: 100%;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #desktop {
+    display: none;
+  }
+
+  #mobile {
+    display: block;
+
+    #tech {
+      h1 {
+        font-size: 26px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #mobile {
+    #header-mob {
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    #tech {
+      h1 {
+        font-size: 22px;
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
   }
 }

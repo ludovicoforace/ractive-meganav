@@ -1,2 +1,15 @@
-<div>
+<div class="pend">
+  <div>
+    <h1 class="centre-v">Ractive Meganav</h1>
+    <i on-click="active" class='fa fa-angle-double-down {{ showLi ? "spin-up" : ""}}' aria-hidden="true"></i>
+  </div>
 </div>
+{{#if showLi}}
+<nav intro-outro="slide">
+  <ul>
+    {{#mainHead:i}}
+    <li><a href="{{anchor}}" target="_blank">{{title}}<i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+    {{/mainHead}}
+  </ul>
+</nav>
+{{/if}}

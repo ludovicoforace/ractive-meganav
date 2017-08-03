@@ -25,7 +25,8 @@
   "dependencies": {
     "moment": "^2.18.1",
     "ractive": "~0.7.3",
-    "sash-layout": "^1.2.3",
+    "ractive-transitions-slide": "^0.4.0",
+    "sash-layout": "^1.2.4",
     "then-request": "^4.1.0"
   },
   "stylelint": {
