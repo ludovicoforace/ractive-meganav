@@ -6,7 +6,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{snowflakes.0.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{snowflakes.0.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}
 
@@ -66,7 +66,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{schopenhauer.1.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{schopenhauer.1.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}
 
@@ -77,7 +77,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{schopenhauer.2.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{schopenhauer.2.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}
 
@@ -88,7 +88,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{schopenhauer.3.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{schopenhauer.3.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}
 
@@ -99,7 +99,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{schopenhauer.4.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{schopenhauer.4.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}
 
@@ -112,7 +112,7 @@
       {{/each}}
     </ul>
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{schopenhauer.5.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{schopenhauer.5.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}}         
 {{/if}} 
@@ -153,7 +153,7 @@
     <p>{{para}}</p>
     {{/each}}
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{physiognomy.1.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{physiognomy.1.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}} 
   
@@ -176,7 +176,7 @@
       {{/each}}
     </ul>
     <blockquote cite="https://en.wikipedia.org">source: wikipedia</blockquote>
-    <a on-mouseover-mouseout="overAnchor" href='{{physiognomy.3.anchor}}' target="_blank" class='{{ overAnchor ? "active" : "" }}'>read more</a>
+    <a href='{{physiognomy.3.anchor}}' target="_blank">read more</a>
   </div>
   {{/if}} 
 {{/if}}

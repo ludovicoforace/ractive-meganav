@@ -270,10 +270,6 @@
   .text {
     padding: 15px 30px;
 
-    .active {
-      text-shadow: 0 -1px 10px @second;
-    }
-
     h1 {
       font-size: 30px;
       padding: 0 0 5px;
@@ -309,6 +305,10 @@
       line-height: normal;
       color: @second;
       padding: 5px 0;
+
+      &:hover {
+        text-shadow: 0 -1px 10px @second;
+      }
     }
   }
 
